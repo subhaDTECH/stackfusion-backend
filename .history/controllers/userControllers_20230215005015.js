@@ -7,7 +7,6 @@ exports.GetUsers=async(req,res,next)=>{
      try{
 
         const users=await Users.find({});
-        console.log(users)
         return res.status(200).json({
             message:"success",
             data:users

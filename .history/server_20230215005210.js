@@ -12,13 +12,11 @@ dotenv.config({path:'./config/config.env'});
 //middleware
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-
-
 app.use('/api',UserRoutes);
 
 
 app.get('/',(req,res)=>{
-    return res.send("working")
+    res.send("working")
 })
 
 

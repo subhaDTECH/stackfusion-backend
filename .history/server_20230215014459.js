@@ -18,7 +18,7 @@ app.use('/api',UserRoutes);
 
 
 app.get('/',(req,res)=>{
-    return res.send("working")
+    res.send("working")
 })
 
 
