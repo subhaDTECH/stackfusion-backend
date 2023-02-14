@@ -2,7 +2,7 @@ const Users=require("../models/user")
 
 
 //get allusers
-exports.GetUsers=async(req,res,next)=>{
+exports.GetUsers=async(req,res)=>{
    
      try{
 
@@ -25,7 +25,7 @@ exports.GetUsers=async(req,res,next)=>{
 
 //create user
 
-exports.UserCreate=async(req,res,next)=>{
+exports.UserCreate=async(req,res)=>{
    
     try{
 
